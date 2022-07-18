@@ -41,9 +41,7 @@ function insertCardsElements() {
   let htmlSection = document.getElementById("cardSection");
   let twentyRandomNumbersArrayElements = giveRangeRandomNumbers(0, 20, 20);
   for (let i = 0; i < 20; i++) {
-    htmlSection.appendChild(
-      randomCardsArray[twentyRandomNumbersArrayElements[i]]
-    );
+    htmlSection.appendChild(randomCardsArray[twentyRandomNumbersArrayElements[i]]);
   }
 }
 
